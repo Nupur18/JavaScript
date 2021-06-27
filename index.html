@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tutorial</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            border: 2px solid red;
+            margin: 3px 0;
+            background: cyan;
+            padding: 9px;
+        }
+        .bg-primary{
+            background-color: blueviolet;
+        }
+        .text-success{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to this JavaScript Tutorial</h1>
+    <div id = "firstContainer" class="container">
+        <button id="click" onclick="clicked()">Click me</button>    <!-- onclick(an event) - what happens if we click on the element-->
+        <p>This is a paragraph which is the best</p>
+    </div>
+    <div class="container">
+        <p>This is a paragraph</p>
+    </div>
+
+    <!-- JavaScript in HTML file -->
+    <!-- <script>
+        // 1. Ways to print in JavaScript
+        // console.log("Hello World");     // to print anything on console
+        // alert("me");  // to alert, not used much in modern JavaScript
+        // document.write("This is document write")   // to write on document
+
+        // 2. JavaScript Console API (Application Programming Interface)
+        console.log("Hello World", 4+6, "Another log");     // to print anything on console
+        console.warn("This is a warning");
+        console.error("This is an error");
+    </script> -->
+    <!-- JavaScript from another file -->
+    <script src="index.js"></script>
+</body>
+</html>
+
+<!-- 
+    . is for class
+    # is for id 
+    id is for identifying (identifier), there should one specific id in whole page, same id cannot be used in another elenemt
+    class can be repeated
+-->
