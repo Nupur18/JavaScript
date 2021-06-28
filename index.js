@@ -310,11 +310,11 @@ logKaro = ()=>{
 }
 
 // 12. SetTimeout and SetInterval
-// setTimeout(logKaro, 2000);   // schedules the function
+setTimeout(logKaro, 2000);   // schedules the function
 // first argument is a function and second argument is kitne milliseconds ke baad logKaro function ko run karna chahte ho
-// clr = setTimeout(logKaro, 2000);    // clr will contain an ID which when wrtitten - clearTimeout(clr), the function not run at all
-// setInterval(logKaro, 2000);  // repeatedly koi chiz karana chahte ho to
-// clr = setInterval(logKaro, 2000);  // clr will contain an ID which when wrtitten - clearInterval(clr), the function will stop running
+clr = setTimeout(logKaro, 2000);    // clr will contain an ID which when wrtitten - clearTimeout(clr), the function not run at all
+setInterval(logKaro, 2000);  // repeatedly koi chiz karana chahte ho to
+clr = setInterval(logKaro, 2000);  // clr will contain an ID which when wrtitten - clearInterval(clr), the function will stop running
 // use clearTimeout(clr)/clearInterval(clr) to cancel setTimeout/setInterval
 
 
